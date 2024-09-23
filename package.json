@@ -8,8 +8,10 @@
   },
   "scripts": {
     "import": "ts-node src/commands/importProducts.ts",
-    "start": "ts-node-dev --respawn src/server.ts",
-    "test": "jest"
+    "start-dev": "ts-node-dev --respawn src/server.ts",
+    "test": "jest",
+    "build": "npm install && tsc",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
