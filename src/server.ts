@@ -4,7 +4,7 @@ import { connectDB } from './config/db';
 import { config } from './config/env';
 import cors from 'cors';
 
-import userRoutes from '../src/routes/userRoutes';
+import userRoutes from './routes/userRoutes';
 import productRoutes from './routes/productRoutes';
 
 const app = express();
